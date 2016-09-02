@@ -8,5 +8,10 @@ target 'AutoComplete' do
 pod 'SlackTextViewController'
 pod 'LoremIpsum', '~> 1.0'
 
+
+# userful links
+
+# 1. https://github.com/ThornTechPublic/SwiftTextViewHashtag
+
 end
 

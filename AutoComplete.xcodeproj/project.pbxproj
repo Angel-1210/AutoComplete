@@ -17,6 +17,7 @@
 		1FD0B7E51D7172D500B7A6F2 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0B7DD1D7172D500B7A6F2 /* MessageTableViewCell.m */; };
 		1FD0B7E61D7172D500B7A6F2 /* MessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0B7DF1D7172D500B7A6F2 /* MessageTextView.m */; };
 		1FD0B7E81D7172D500B7A6F2 /* TypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0B7E31D7172D500B7A6F2 /* TypingIndicatorView.m */; };
+		1FF0A0A61D79F0A300B9F481 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0A0A51D79F0A300B9F481 /* LocationManager.swift */; };
 		1FFE89121D71A3D0004AEAC2 /* CustomLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE89071D71A3D0004AEAC2 /* CustomLayoutManager.m */; };
 		1FFE89131D71A3D0004AEAC2 /* InlineTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE89091D71A3D0004AEAC2 /* InlineTextAttachment.m */; };
 		1FFE89141D71A3D0004AEAC2 /* NSAttributedString+Processing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE890B1D71A3D0004AEAC2 /* NSAttributedString+Processing.m */; };
@@ -43,6 +44,7 @@
 		1FD0B7E21D7172D500B7A6F2 /* TypingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypingIndicatorView.h; sourceTree = "<group>"; };
 		1FD0B7E31D7172D500B7A6F2 /* TypingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypingIndicatorView.m; sourceTree = "<group>"; };
 		1FD0B7F01D7173C100B7A6F2 /* AutoComplete-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoComplete-Bridging-Header.h"; sourceTree = "<group>"; };
+		1FF0A0A51D79F0A300B9F481 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		1FFE89061D71A3D0004AEAC2 /* CustomLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutManager.h; sourceTree = "<group>"; };
 		1FFE89071D71A3D0004AEAC2 /* CustomLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutManager.m; sourceTree = "<group>"; };
 		1FFE89081D71A3D0004AEAC2 /* InlineTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlineTextAttachment.h; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		1FD0B7B61D716E4600B7A6F2 /* AutoComplete */ = {
 			isa = PBXGroup;
 			children = (
+				1FF0A0A51D79F0A300B9F481 /* LocationManager.swift */,
 				1FD0B7D91D7172D500B7A6F2 /* Framework */,
 				1FD0B7B71D716E4600B7A6F2 /* AppDelegate.swift */,
 				1FD0B7B91D716E4600B7A6F2 /* ViewController.swift */,
@@ -282,6 +285,7 @@
 				1FFE89161D71A3D0004AEAC2 /* PatternDescriptor.m in Sources */,
 				1FFE89171D71A3D0004AEAC2 /* ResponsiveLabel.m in Sources */,
 				1FFE89121D71A3D0004AEAC2 /* CustomLayoutManager.m in Sources */,
+				1FF0A0A61D79F0A300B9F481 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
