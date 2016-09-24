@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tvd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//-----------------------------------------------------------------------
+
+#pragma mark - UITextViewDelegate Methods
+
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView {
+    return YES;
+}
+
+//-----------------------------------------------------------------------
+
+- (BOOL)textViewShouldEndEditing:(UITextView *)textView {
+    return YES;
+}
+
+//-----------------------------------------------------------------------
+
+- (void)textViewDidBeginEditing:(UITextView *)textView {
+    
+}
+
+//-----------------------------------------------------------------------
+
+- (void)textViewDidEndEditing:(UITextView *)textView {
+    
+}
+
+//-----------------------------------------------------------------------
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+    return YES;
+}
+
+//-----------------------------------------------------------------------
+
+- (void)textViewDidChange:(UITextView *)textView {
+    
+}
+
+//-----------------------------------------------------------------------
+
+- (void)textViewDidChangeSelection:(UITextView *)textView {
+    
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>51DC9209-9458-4652-BD93-96C5C54443CE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>code for textview delegates method</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Textview Delegates</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

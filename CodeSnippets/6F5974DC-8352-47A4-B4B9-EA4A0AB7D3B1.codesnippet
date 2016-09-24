@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pickerview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIPickerView * pickerview = [[UIPickerView alloc] init];
+    [pickerview setFrame:CGRectMake(0, 50.0f, 180.0f, 180.0f)];
+    [pickerview setShowsSelectionIndicator:YES
+     ];
+    [pickerview setDataSource:self];
+    [pickerview setDelegate:self];
+    [self.view addSubview:pickerview];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6F5974DC-8352-47A4-B4B9-EA4A0AB7D3B1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>code for picker view</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Pickerview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

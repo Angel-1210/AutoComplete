@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  //Left Items
+    UIButton *addCategoryItemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [addCategoryItemBtn addTarget:self action:@selector(popNavigationController:) forControlEvents:UIControlEventTouchUpInside];
+    [addCategoryItemBtn setImage:[UIImage imageNamed:@"btn_category.png"] forState:UIControlStateNormal];
+    [addCategoryItemBtn setFrame:CGRectMake(0, 0, 79, 29)];
+    
+    UIBarButtonItem *addCategoryItem = [[UIBarButtonItem alloc] initWithCustomView:addCategoryItemBtn];
+    self.navigationItem.leftBarButtonItem = addCategoryItem;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A0652FEC-F239-4516-B780-9132AF7019E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>code for custom button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Custom Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

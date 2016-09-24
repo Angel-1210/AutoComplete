@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dic</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> NSURL *URL = [[NSBundle mainBundle] URLForResource:@"iPhoneAppProgrammingGuide" withExtension:@"pdf"];
+    if (URL) {
+        _documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL:URL];
+        [self.documentInteractionController setDelegate:self];
+        [self.documentInteractionController presentOpenInMenuFromRect:[button frame] inView:self.view animated:YES];
+    }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>711F678F-ECA0-4677-82FE-CF080F26FA1C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>code for document interection controller</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>DocumentInterectionController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
